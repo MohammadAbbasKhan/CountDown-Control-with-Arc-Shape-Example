@@ -32,6 +32,7 @@ and
                 canvas.drawArc(rectF, 0, 12 * (millisUntilFinished) / 1000, true, paint);
                 
   iii)Attach bitmap to ImageView using setImageBitmap method.
+  
                 imageView.setImageBitmap(bg);
 
 
