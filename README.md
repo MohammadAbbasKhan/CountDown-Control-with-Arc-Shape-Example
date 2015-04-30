@@ -23,9 +23,16 @@ and
 
   i)Creation of bitmap and creating a Canvas from the bitmap.
   
+                bg = Bitmap.createBitmap(320, 320, Bitmap.Config.ARGB_8888);
+                canvas = new Canvas(bg);
+  
   ii)An ArcShape that we draw on canvas after every second.
   
+                rectF = new RectF(0, 0, 320, 320);
+                canvas.drawArc(rectF, 0, 12 * (millisUntilFinished) / 1000, true, paint);
+                
   iii)Attach bitmap to ImageView using setImageBitmap method.
+                imageView.setImageBitmap(bg);
 
 
 
