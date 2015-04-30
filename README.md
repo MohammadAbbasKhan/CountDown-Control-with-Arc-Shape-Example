@@ -20,8 +20,11 @@ We have used two main parts in this code
                 .start();
 and 
 2) The second part comprises of 
+
   i)Creation of bitmap and creating a Canvas from the bitmap.
+  
   ii)An ArcShape that we draw on canvas after every second.
+  
   iii)Attach bitmap to ImageView using setImageBitmap method.
 
 
